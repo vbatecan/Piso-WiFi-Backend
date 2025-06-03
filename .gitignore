@@ -1,3 +1,12 @@
+### IDE
+# PyCharm
+.idea/
+.idea_modules/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
