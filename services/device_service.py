@@ -43,6 +43,7 @@ class DeviceService:
             log.error("Database error: %s", e)
             self.con.rollback()
             exit(1)  # There shouldn't be an error.
+        return False
 
     def update(self, device: Device):
         if self.exist(device.mac_address):
@@ -139,6 +140,7 @@ class DeviceService:
             log.error("Database error: %s", e)
             self.con.rollback()
             exit(1)  # There shouldn't be an error.
+        return False
 
     def exist(self, mac_address):
         self.cur.execute(
