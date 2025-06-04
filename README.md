@@ -35,27 +35,33 @@ The Piso WiFi Controller runs on a Linux SBC (e.g., Orange Pi or Raspberry Pi) a
 ## Features
 - **MAC-Based Device Registration**  
   No personal data required—each device is tracked and billed by its MAC address.
-  [x] Done
+
+[x] Done
 
 - **Coin-Operated Time Credit**  
   Insert ₱1 or ₱5 coins (or other denominations), which map to fixed time increments.
-  [ ] Done
+
+[ ] Done
 
 - **Automated Time Decrement**  
   Runs a scheduled task to subtract time at regular intervals and deactivate sessions upon expiration.
-  [x] Done
+
+[x] Done
 
 - **Dynamic Firewall Rules**  
   Uses custom iptables chains to allow or block client traffic based on session status.
-  [ ] Done
+
+[ ] Done
 
 - **Captive Portal Redirect**  
   All new or expired devices are redirected to a landing page for payment/instruction.
-  [ ] Done
+
+[ ] Done
 
 - **Admin-Friendly API Endpoints**  
   CRUD operations for devices, querying session status, and force-ending sessions.
-  [ ] Done
+
+[ ] Done
 
 ---
 
